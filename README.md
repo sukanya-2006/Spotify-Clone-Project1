@@ -20,7 +20,8 @@ A clone of the Spotify homepage built using only HTML and CSS.
 🔗 Live Demo
 https://sukanya-2006.github.io/Spotify-Clone-Project1/
 
- 📖 Project Overview
+ 📖 Project Overview:
+ 
 This project was built to practice frontend skills, especially layout and responsiveness. The goal was to closely match Spotify’s homepage while only using HTML and CSS — no JavaScript or libraries.
 
 It helped me:
