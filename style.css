@@ -382,5 +382,68 @@ a{
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  /* Stack main layout vertically */
+  .main {
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+  }
+
+  /* Sidebar should take full width */
+  .sidebar {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    order: 2;
+  }
+
+  /* Main content takes full width */
+  .main-content {
+    width: 100%;
+    padding: 1rem;
+    order: 1;
+    overflow-y: auto;
+    max-height: 100vh;
+  }
+
+  /* Cards wrap in a column, centered */
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Each card stretches to 90% width */
+  .card {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  /* Hide forward button on small screens */
+  .hide {
+    display: none;
+  }
+
+  /* Music player stacks vertically */
+  .music-player {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .album,
+  .player,
+  .controls {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Optional: Reduce base font size for smaller screens */
+  html {
+    font-size: 14px;
+  }
+}
+
 
 
